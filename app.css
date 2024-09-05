@@ -1,0 +1,78 @@
+body {
+    background-color: #111;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #b93802;
+}
+
+.dash {
+    width: 45px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #b93802;
+}
+
+.green {
+    background-color: #30cd00;
+}
+
+#target {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.morseCodeContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    gap: 5px;
+}
+
+.btn3d {
+    position: relative;
+    top: -6px;
+    border: 0;
+    transition: all 20ms linear;
+}
+
+.tapper {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+  
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+    -moz-outline-style: none;
+    outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+    top: 2px;
+}
+
+.btn3d.btn-primary {
+    box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #AA0000, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    background-color: #D73814;
+}
+
+.btn3d.btn-primary:active,
+.btn3d.btn-primary.active {
+    box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    background-color: #D73814;
+}
